@@ -33,6 +33,15 @@ p {
   padding: 0 15px;
 }
 
+.contents {
+  border: 1px solid #000;
+  max-width: 400px;
+}
+
+.contents__title {
+  margin: 20px 0px 10px 15px;
+}
+
 .section-wiki {
   margin: 20px 0px;
 }
@@ -43,4 +52,26 @@ p {
   text-align: center;
   padding: 20px 150px 0px 150px;
   width: 700px;
+}
+
+.back-to-the-top__button {
+  color: #000;
+  display: block;
+  border: 1px solid #000;
+  padding: 5px;
+  margin: 10px 431px;
+  max-width: 125px;
+  text-align: center;
+  transition: .7s;
+}
+
+.back-to-the-top__button:hover {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer {
+  border-top: 1px solid #000;
+  padding: 12px;
 }
