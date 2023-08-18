@@ -26,7 +26,7 @@ ul a:hover {
 
 h1 {
   text-align: center;
-  border-bottom: 1px solid #252525;
+  border-bottom: 1px solid #a2a9b1;
   padding: 10px 0px;
 }
 
@@ -56,7 +56,7 @@ p {
 
 .contents {
   padding: 20px 10px 15px 30px;
-  border: 1px solid #000;
+  border: 1px solid #a2a9b1;
   border-radius: 10px;
   width: 400px;
 }
@@ -74,8 +74,8 @@ p {
 }
 
 .portrait {
-  max-width: 400px;
-  border: 1px solid #000;
+  width: 400px;
+  border: 1px solid #a2a9b1;
   border-radius: 10px;
   padding: 15px 25px;
   text-align: center;
@@ -100,7 +100,7 @@ p {
 
 .back-to-the-top__btn {
   color: #000;
-  border: 1px solid #000;
+  border: 1px solid #a2a9b1;
   border-radius: 5px;
   padding: 5px;
   margin: 20px auto;
@@ -117,6 +117,6 @@ p {
 }
 
 .footer {
-  border-top: 1px solid #000;
+  border-top: 1px solid #a2a9b1;
   padding: 12px;
 }
