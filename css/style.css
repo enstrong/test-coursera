@@ -14,6 +14,8 @@ a:hover {
 
 h1 {
   text-align: center;
+  border-bottom: 1px solid #252525;
+  padding-bottom: 5px;
 }
 
 h3 {
@@ -33,14 +35,34 @@ p {
   padding: 0 15px;
 }
 
+.contents-and-portrait {
+  display: flex;
+}
+
 .contents {
   border: 1px solid #000;
   border-radius: 10px;
-  max-width: 400px;
+  width: 400px;
+  max-height: 250px;
 }
 
-.contents__title {
+.h2__title {
   margin: 20px 0px 10px 15px;
+}
+
+.portrait {
+  max-width: 400px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 0px 25px 15px 25px;
+  margin-left: 200px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.portrait__img {
+  max-width: 350px;
+  margin-bottom: 10px;
 }
 
 .section-wiki {
@@ -61,8 +83,9 @@ p {
   border: 1px solid #000;
   border-radius: 5px;
   padding: 5px;
-  margin: 10px 431px;
-  max-width: 125px;
+  margin: 10px 425px;
+  max-width: 150px;
+  box-sizing: border-box;
   text-align: center;
   transition: .7s;
 }
