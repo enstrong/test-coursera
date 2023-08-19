@@ -54,12 +54,23 @@ p {
   justify-content: space-between;
 }
 
-.contents {
-  margin-top: 20px;
-  padding: 20px 10px 15px 30px;
+.main-info {
+  max-width: 560px;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.contents,
+.portrait {
   border: 1px solid #a2a9b1;
   border-radius: 10px;
-  width: 400px;
+  margin-top: 20px;
+}
+
+.contents {
+  padding: 20px 10px 15px 30px;
 }
 
 .sublist {
@@ -75,12 +86,10 @@ p {
 }
 
 .portrait {
-  width: 400px;
-  border: 1px solid #a2a9b1;
-  border-radius: 10px;
-  margin-top: 20px;
   padding: 15px 25px;
   text-align: center;
+  max-height: 540px;
+  width: 400px;
 }
 
 .portrait__img {
