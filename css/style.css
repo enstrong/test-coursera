@@ -40,20 +40,10 @@ p {
   padding: 10px 0px;
 }
 
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 .contents-and-portrait {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.main-info {
-  max-width: 560px;
 }
 
 .font-weight-700 {
@@ -84,14 +74,13 @@ p {
 }
 
 .portrait {
-  padding: 15px 25px;
+  /*padding: 15px 25px;*/
   text-align: center;
-  max-height: 540px;
-  width: 400px;
+  max-height: 650px;
 }
 
 .portrait__img {
-  max-width: 350px;
+  max-width: 300px;
   margin-bottom: 10px;
 }
 
