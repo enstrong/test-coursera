@@ -28,6 +28,10 @@ h3 {
   font-size: 20px;
 }
 
+h4 {
+  font-size: 18px;
+}
+
 p {
   font-size: 18px;
   padding: 20px 0px 0px 0px;
@@ -74,7 +78,6 @@ p {
 }
 
 .portrait {
-  /*padding: 15px 25px;*/
   text-align: center;
   max-height: 650px;
 }
@@ -82,6 +85,10 @@ p {
 .portrait__img {
   max-width: 300px;
   margin-bottom: 10px;
+}
+
+.portrait-by {
+  margin: 20px 0;
 }
 
 .section-title {
@@ -130,5 +137,12 @@ p {
 @media (min-width: 992px) and (max-width: 1199px) {
   .portrait__img {
     max-width: 250px;
+  }
+}
+
+@media (max-width: 767px) {
+  .portrait__img {
+    max-width: 90%;
+    max-height: 700px;
   }
 }
