@@ -126,3 +126,9 @@ p {
   border-top: 1px solid #a2a9b1;
   padding: 12px;
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .portrait__img {
+    max-width: 250px;
+  }
+}
