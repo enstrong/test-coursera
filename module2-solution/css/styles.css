@@ -12,6 +12,7 @@ html {
 
 p {
   font-size: 100%;
+  padding: 45px 8px 8px 8px;
 }
 
 .container {
@@ -21,6 +22,7 @@ p {
 }
 
 .row {
+  margin: 0 -15px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -33,33 +35,56 @@ p {
   font-size: 175%;
 }
 
-.section {
+.section-container {
   padding: 15px;
-  margin: 0 15px;
-  border: 1px solid #000;
+}
+
+.section {
+  border: 2px solid #000;
+  background-color: gray;
+  position: relative;
 }
 
 .section__title {
   font-size: 125%;
+  border: 1px solid #000;
+  background-color: #ff4d4d;
+  padding: 5px;
+  max-width: 200px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.background-color__yellow {
+  background-color: #c8ff00;
+}
+
+.background-color__blue {
+  background-color: #3c60ff;
 }
 
 /* desktop */
 @media (min-width: 992px){
-  .section {
+  .section-container {
     max-width: 33.3333%;
   }
 }
 
 /* tablet */
 @media (min-width: 768px) and (max-width: 991px) {
-  .section {
+  .section-container {
     max-width: 50%;
+  }
+
+  .col-md-12 {
+    max-width: 100%;
   }
 }
 
 /* mobile */
 @media (max-width: 767px) {
-  .section {
+  .section-container {
     max-width: 100%;
   }
 }
