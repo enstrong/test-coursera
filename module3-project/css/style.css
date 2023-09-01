@@ -69,6 +69,28 @@ a:hover, a:focus {
   vertical-align: middle;
 }
 
+.main-header-nav a {
+  color: #951c49;
+  text-align: center;
+}
+
+.main-header-nav a:hover {
+  background-color: #e7e7e7;
+}
+
+.main-header-nav a span {
+  font-size: 1.8em;
+}
+
+.glyphicon {
+  display: block;
+}
+
+.main-header-nav div {
+  color: #557c3e;
+  text-align: right;
+}
+
 
 /* mobile */
 @media (max-width: 767px) {
